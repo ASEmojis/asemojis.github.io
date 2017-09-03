@@ -48,8 +48,7 @@ var emojis = [{
     "path" : "yes.png"
   }, {
     "name" : "Sleep",
-    "path" : "sleep.gif
-    "
+    "path" : "sleep.gif"
   }, {
     "name" : "Dead",
     "path" : "dead.png"
