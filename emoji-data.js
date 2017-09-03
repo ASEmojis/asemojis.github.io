@@ -17,8 +17,8 @@ var emojis = [{
     "name" : "Angry Smile",
     "path" : "angrysmile.png"
   }, {
-    "name" : "shocked",
-    "path" : "shocked.png"
+    "name" : "Worried",
+    "path" : "woried.png"
   }, {
     "name" : "Unsure",
     "path" : "unsure.png"
@@ -32,73 +32,71 @@ var emojis = [{
     "name" : "Party Time!",
     "path" : "party.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Cake",
+    "path" : "cake.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Bomb",
+    "path" : "bomb.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Grumpy Cloud",
+    "path" : "grumpycloud.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "No",
+    "path" : "no.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Yes",
+    "path" : "yes.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Sleep",
+    "path" : "sleep.gif
+    "
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Dead",
+    "path" : "dead.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Shocked",
+    "path" : "shocked.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Happy Sun",
+    "path" : "happysun.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Rainbow",
+    "path" : "rainbow.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Wine",
+    "path" : "wine.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Danger!",
+    "path" : "danger.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Lightning",
+    "path" : "lightning.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Ghost",
+    "path" : "ghost.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Torch",
+    "path" : "torch.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Candle",
+    "path" : "candle.gif"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Ice Cream",
+    "path" : "icecream.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Jar",
+    "path" : "jar.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Tree",
+    "path" : "tree.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Flower",
+    "path" : "flower.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Book",
+    "path" : "book.png"
   }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
-  }, {
-    "name" : "Smiley",
-    "path" : "smiley.png"
+    "name" : "Pencil",
+    "path" : "pencil.png"
   }]
 }]
