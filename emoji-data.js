@@ -26,10 +26,10 @@ var emojis = [{
     "name" : "Confused",
     "path" : "confused.png"
   }, {
-    "name" : "Amazed",
-    "path" : "amazed.png"
+    "name" : "What?",
+    "path" : "what.png"
   }, {
-    "name" : "party",
+    "name" : "Party Time!",
     "path" : "party.png"
   }, {
     "name" : "Smiley",
