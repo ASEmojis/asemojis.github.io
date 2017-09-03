@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>AppStone Emojis</title>
+  <script src="emoji-data.js"></script>
+  <script src="emoji.js"></script>
+  <script>
+  function listEmojis() {
+    document.getElementById("emojiSelection").innerHTML = "";
+    var counter1 = 0;
+    while (counter1 < emojis.length) {
+      document.getElementById("emojiSelection").innerHTML = document.getElementById("emojiSelection").innerHTML + "<h3 style='text-align: center;'>" + emojis[counter1].name + "</h3><div class='emojiCategory' style='width: 100%; height: 40%; overflow: auto;'></div>";
+      var counter2 = 0;
+      while (counter2 < emojis[counter1].items.length) {
+        document.getElementsByClassName("emojiCategory")[counter1].innerHTML = document.getElementsByClassName("emojiCategory")[counter1].innerHTML + "<span class='asEmojiPlaceholder'><span>" + counter1 + "</span><span>" + counter2 + "</span></span>&nbsp";
+        counter2 = counter2 + 1;
+      }
+      counter1 = counter1 + 1;
+    }
+    createEmojis();
+    var counter1 = 0;
+    while (counter1 < document.getElementsByClassName("appstoneEmoji").length) {
+      document.getElementsByClassName("appstoneEmoji")[counter1].parentElement.href = "javascript:selectEmoji(" + document.getElementsByClassName("appstoneEmoji")[counter1].parentElement.parentElement.getElementsByTagName("span")[0].innerHTML + ", " + document.getElementsByClassName("appstoneEmoji")[counter1].parentElement.parentElement.getElementsByTagName("span")[1].innerHTML + ");";
+      document.getElementsByClassName("appstoneEmoji")[counter1].parentElement.removeAttribute("target");
+      counter1 = counter1 + 1;
+    }
+  }
+  function selectEmoji(categoryID, emojiID) {
+    document.getElementById("emojiSelection").innerHTML = "<div style='text-align: center;'><h1>AppStone Emojis > " + emojis[categoryID].name + " > " + emojis[categoryID].items[emojiID].name + "</h1><br /><br /><p>Put this code in the <code>&lt;head&gt;</code> element:</p><code>&lt;head&gt;<br />&lt;script src='http://emojis.appstone.net/emoji-data.js'&gt;&lt;/script&gt;<br />&lt;script src='http://emojis.appstone.net/emoji.js'&gt;&lt;/script&gt;<br />&lt;/head&gt;</code><br /><br /><p>Put this where the emoji should go:</p><code>&lt;span class='asEmojiPlaceholder'&gt;&lt;span&gt;" + categoryID + "&lt;/span&gt;&lt;span&gt;" + emojiID +  "&lt;/span&gt;&lt;/span&gt;</code><br /><br /><p>And add this to the end of the document:</p><code>&lt;script&gt;createEmojis();&lt;/script&gt;</code></div>";
+  }
+  </script>
+  <style>
+  .appstoneEmoji {
+    opacity: 0.75;
+    height: 25%;
+  }
+  .appstoneEmoji:hover {
+    opacity: 1;
+  }
+  code {
+    background-color: lightgrey;
+  }
+  </style>
+</head>
+<body>
+  <div style="background-color: blue; position: absolute; top: 0%; left: 0%; width: 100%; height: 15%;">
+    <h1 style="text-align: center; color: white;">AppStone Emojis</h1>
+  </div>
+  <div id="emojiSelection" style="position: absolute; top: 15%; left: 0%; width: 100%; height: 85%;">
+    <script>
+    listEmojis();
+    </script>
+  </div>
+</body>
+</html>
