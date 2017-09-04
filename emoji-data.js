@@ -18,13 +18,10 @@ var emojis = [{
     "path" : "angrysmile.png"
   }, {
     "name" : "Worried",
-    "path" : "woried.png"
+    "path" : "worried.png"
   }, {
     "name" : "Unsure",
     "path" : "unsure.png"
-  }, {
-    "name" : "Confused",
-    "path" : "confused.png"
   }, {
     "name" : "What?",
     "path" : "what.png"
@@ -47,8 +44,8 @@ var emojis = [{
     "name" : "Yes",
     "path" : "yes.png"
   }, {
-    "name" : "Sleep",
-    "path" : "sleep.gif"
+    "name" : "Sleeping",
+    "path" : "sleeping.gif"
   }, {
     "name" : "Dead",
     "path" : "dead.png"
