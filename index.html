@@ -25,7 +25,7 @@
     }
   }
   function selectEmoji(categoryID, emojiID) {
-    document.getElementById("emojiSelection").innerHTML = "<div style='text-align: center;'><h1>AppStone Emojis > " + emojis[categoryID].name + " > " + emojis[categoryID].items[emojiID].name + "</h1><br /><br /><p>Put this code in the <code>&lt;head&gt;</code> element:</p><code>&lt;head&gt;<br />&lt;script src='http://emojis.appstone.net/emoji-data.js'&gt;&lt;/script&gt;<br />&lt;script src='http://emojis.appstone.net/emoji.js'&gt;&lt;/script&gt;<br />&lt;/head&gt;</code><br /><br /><p>Put this where the emoji should go:</p><code>&lt;span class='asEmojiPlaceholder'&gt;&lt;span&gt;" + categoryID + "&lt;/span&gt;&lt;span&gt;" + emojiID +  "&lt;/span&gt;&lt;/span&gt;</code><br /><br /><p>And add this to the end of the document:</p><code>&lt;script&gt;createEmojis();&lt;/script&gt;</code></div>";
+    document.getElementById("emojiSelection").innerHTML = "<div style='text-align: center;'><h1><span onclick='listEmojis();'>AppStone Emojis</span> > " + emojis[categoryID].name + " > " + emojis[categoryID].items[emojiID].name + "</h1><br /><br /><p>Put this code in the <code>&lt;head&gt;</code> element:</p><code>&lt;head&gt;<br />&lt;script src='http://emojis.appstone.net/emoji-data.js'&gt;&lt;/script&gt;<br />&lt;script src='http://emojis.appstone.net/emoji.js'&gt;&lt;/script&gt;<br />&lt;/head&gt;</code><br /><br /><p>Put this where the emoji should go:</p><code>&lt;span class='asEmojiPlaceholder'&gt;&lt;span&gt;" + categoryID + "&lt;/span&gt;&lt;span&gt;" + emojiID +  "&lt;/span&gt;&lt;/span&gt;</code><br /><br /><p>And add this to the end of the document:</p><code>&lt;script&gt;createEmojis();&lt;/script&gt;</code></div>";
   }
   </script>
   <style>
